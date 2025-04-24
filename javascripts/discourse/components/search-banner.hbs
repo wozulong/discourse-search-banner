@@ -9,7 +9,7 @@
       {{will-destroy this.willDestroy}}
     >
       <div class="custom-search-banner-wrap welcome-banner__wrap">
-        <h1>{{html-safe (theme-i18n "search_banner.headline")}}</h1>
+        <div class="welcome-banner__title">{{html-safe (theme-i18n "search_banner.headline")}}</div>
         <PluginOutlet @name="search-banner-below-headline" />
         <p>{{html-safe (theme-i18n "search_banner.subhead")}}</p>
         <div class="search-menu welcome-banner__search-menu">
